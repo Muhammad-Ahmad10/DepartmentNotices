@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Project Input Form</title>
+  </head>
+  <body>
+    <form action="submit_project.php" method="post">
+      <label for="pro_id">Project ID:</label>
+      <input type="text" id="pro_id" required autofocus name="pro_id"><br>
+      <label for="pro_std_name">Student Name:</label>
+      <input type="text" id="pro_std_name" required autofocus name="pro_std_name"><br>
+      <label for="pro_name">Project Name:</label>
+      <input type="text" id="pro_name" required autofocus name="pro_name"><br>
+      <label for="pro_review_date">Review Date:</label>
+      <input type="date" id="pro_review_date" required autofocus name="pro_review_date"><br>
+      <label for="project_description">Project Description:</label>
+      <textarea id="project_description" name="project_description"></textarea><br>
+      <input type="submit" value="Submit">
+    </form>
+  </body>
+</html>
